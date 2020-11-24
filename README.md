@@ -1,8 +1,9 @@
-# Aprendendo csharp, comecei a flertar com dotnet ?
+# Aprendendo csharp, flertando com dotnet
 
-## Objetivo
+## Objetivos:
 
-Praticar  a sintaxe, explorar as funcionalidades da linguagem, resolver problemas no codewars.
+    Este repositório foi criado de acordo com a minha necessidade de praticar e fixar a sintaxe da linguagem c#. O objetivo é estimular a prática da programação orientada a objetos e me aproximar do desenvolvimento de jogos. Os estudos abordados aqui não fazem parte do conteúdo acadêmico, portanto o repositório será alimentado de acordo com  a minha disponibilidade diária. 
+
 
 ## Tecnologias usadas
 
@@ -12,14 +13,26 @@ Praticar  a sintaxe, explorar as funcionalidades da linguagem, resolver problema
 
 ## Exercícios
 
-* [Conversion challenge](https://github.com/causticroot/learning-java/blob/master/Exercises/src/fundamentals/ConversionChallenge.java); 
+* [Tipos de dados e Variáveis](LINK); 
+* [Loops e Condicionais](LINK); 
+* [Arrays e Listas](LINK); 
+* [Orientação a objetos](LINK); 
 
-## Code wars solutions
+## TODO
 
-* [DescendingOrder](https://github.com/causticroot/learning-java/blob/master/Code%20Wars/Java%20Solutions/src/Codes/DescendingOrder.java); 
+- Primitive Data types
+- Variables
+- Loops
+- Arrays and Lists
+- Functions
+- Conditionals
+- Objects
+- OOP
 
+## Referências
 
-//TODO
+* link
+* link
 
 ## Autor
 
