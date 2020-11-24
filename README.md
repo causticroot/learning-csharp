@@ -8,55 +8,67 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 ## Tecnologias usadas
 
 *  C#; 
-*  Code Wars;
+* dotnet --version `3.1.40`
 *  Vscode; 
 
 ## Exercícios
 
-* [Tipos de dados e Variáveis](LINK); 
-* [Loops e Condicionais](LINK); 
-* [Arrays e Listas](LINK); 
-* [Orientação a objetos](LINK); 
+* [Quebrando valor de pi (Tipos)](LINK); 
 
 ## Diário
 
-### No primeiro dia aprendi que:
+### No primeiro dia aprendi:
 * C# é uma linguagem fortemente tipada e semelhante ao java, originou-se do j++.
+
 * O dotnet framework consiste em 3 partes:
-        **CLR** - Responsável pela interface entre o código e o sistemas operacional.
-        **Classes do framework** - Todas as linguagens que usam a tecnologia dotnet usam as mesmas classes.
-        **ASP.NET** - Fornece o acesso direto a toda a linguagem VB.NET(VisualBasic) e/ou C# a partir de uma plataforma de scriptação.
-* Todas as linguagens dotnet realizam o mesmo esquema de compilação, gerando um arquivo para a linguagem intermediária "MSIL (MicroSoft Intermediate Language)", chamado de Assenbly(.exe ou .dll) .
-* Namespace funciona como um pacote, com a função de agrupar funcionalidades comuns, visando a organização e evitando conflitos. Conveção **PascalCasing**
-* dotnet new console - cria um novo projeto '.cspj'
+**CLR** - Responsável pela interface entre o código e o sistemas operacional.
+**Classes do framework** - Todas as linguagens que usam a tecnologia dotnet usam as mesmas classes.
+**ASP.NET** - Fornece o acesso direto a toda a linguagem VB.NET(VisualBasic) e/ou C# a partir de uma plataforma de scriptação.
+
+* Todas as linguagens dotnet realizam o mesmo esquema de compilação, gerando um arquivo para a linguagem intermediária "**MSIL** (MicroSoft Intermediate Language)", chamado de Assenbly(.exe ou .dll).
+
+* Namespace funciona como um pacote, com a função de agrupar funcionalidades comuns, visando a organização e evitando conflitos.Conveção **PascalCasing**
+
+* dotnet new console - cria um novo projeto '.csproj'
+
 * dotnet run - compila e roda o projeto
+
 * dotnet build - compila o projeto
 
-### No primeiro dia aprendi que:
+* **Casting** é uma operação que força o compilador a realizar uma conversão.
+
+* **String interpolation**
+
+* Convenções da linguagem C#
+
+* Tipo **dynamic**
+
+* foreach
+
+### No segundo dia aprendi que:
 - Conventions
 
-### No primeiro dia aprendi que:
+### No terceiro dia aprendi que:
 - Variables
 
-### No primeiro dia aprendi que:
+### No quarto dia aprendi que:
 - Loops
 
-### No primeiro dia aprendi que:
+### No quinto dia aprendi que:
 - Arrays and Lists
 
-### No primeiro dia aprendi que:
+### No sexto dia aprendi que:
 - Functions
 
-### No primeiro dia aprendi que:
+### No sétimo dia aprendi que:
 - Conditionals
 
-### No primeiro dia aprendi que:
+### No oitavo dia aprendi que:
 - Objects
 - OOP
 
 ## Referências
 
-* doc dotnet csharp
 * link
 
 ## Autor
