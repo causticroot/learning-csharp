@@ -1,4 +1,4 @@
-# Aprendendo csharp, flertando com dotnet
+# Aprendendo csharp
 
 ## Objetivos:
 
@@ -7,9 +7,10 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 ## Tecnologias usadas
 
-*  C#; 
-* dotnet --version `3.1.40`
-*  Vscode; 
+* C#
+* Dotnet --version `3.1.40`
+* Vscode
+* Code Wars
 
 ## Exercícios
 
@@ -43,29 +44,13 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * Tipo **dynamic**
 
-* foreach
+* Criar listas utilizando **foreach**
 
-### No segundo dia aprendi que:
-- Conventions
+* 
 
-### No terceiro dia aprendi que:
-- Variables
 
-### No quarto dia aprendi que:
-- Loops
-
-### No quinto dia aprendi que:
-- Arrays and Lists
-
-### No sexto dia aprendi que:
-- Functions
-
-### No sétimo dia aprendi que:
-- Conditionals
-
-### No oitavo dia aprendi que:
-- Objects
-- OOP
+### No segundo dia aprendi :
+* 
 
 ## Referências
 
