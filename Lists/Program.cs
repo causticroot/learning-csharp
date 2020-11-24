@@ -8,14 +8,15 @@ namespace Lists
         public static void fibonacci()
         {
             var numeros = new List<int> {1,1};
-            var anterior = numeros[numeros.Count - 1];
-            var preAnterior = numeros[numeros.Count -2];
-
-            numeros.Add(anterior + preAnterior);
-
-            foreach(var item in numeros)
+            for(int i = 0; i < 10; i++)
             {
-                Console.WriteLine(item);       
+                var anterior = numeros[numeros.Count - 1];
+                var preAnterior = numeros[numeros.Count -2];
+                numeros.Add(anterior + preAnterior);       
+            }
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(numeros[i]);
             }
         }
         public static void Main(string[] args)
