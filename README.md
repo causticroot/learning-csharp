@@ -14,11 +14,14 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 ## Exercícios
 
-* [Quebrando valor de pi (Tipos)](LINK); 
+* [Quebrar valor de pi (Tipos)](LINK); 
+* [Fibonacci (Listas)]();
 
 ## Diário
 
 ### No primeiro dia aprendi:
+* C# = 'See' + 'Sharp', 'ver nítido'... KKKKKKKKK
+
 * C# é uma linguagem fortemente tipada e semelhante ao java, originou-se do j++.
 
 * O dotnet framework consiste em 3 partes:
@@ -46,8 +49,11 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * Criar listas utilizando **foreach**
 
-* 
+* Manipular uma lista
 
+* Utilizar o **indexOf**
+
+* Ordenar uma lista com o **.Sort()**
 
 ### No segundo dia aprendi :
 * 
