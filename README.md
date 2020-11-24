@@ -18,9 +18,21 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 * [Arrays e Listas](LINK); 
 * [Orientação a objetos](LINK); 
 
-## TODO
+## Diário
 
-- Primitive Data types
+### No primeiro dia aprendi que:
+    * C# é uma linguagem fortemente tipada e semelhante ao java, originou-se do j++.
+    * O dotnet framework consiste em 3 partes:
+        **CLR** - Responsável pela interface entre o código e o sistemas operacional.
+        **Classes do framework** - Todas as linguagens que usam a tecnologia dotnet usam as mesmas classes.
+        **ASP.NET** - Fornece o acesso direto a toda a linguagem VB.NET(VisualBasic) e/ou C# a partir de uma plataforma de scriptação.
+    * Todas as linguagens dotnet realizam o mesmo esquema de compilação, gerando um arquivo para a linguagem intermediária "MSIL (MicroSoft Intermediate Language)", chamado de Assenbly(.exe ou .dll) .
+    * Namespace funciona como um pacote, com a função de agrupar funcionalidades comuns, visando a organização e evitando conflitos. Conveção **PascalCasing**
+    * dotnet new console - cria um novo projeto '.cspj'
+    * dotnet run - compila e roda o projeto
+    * dotnet build - compila o projeto
+    
+- Conventions
 - Variables
 - Loops
 - Arrays and Lists
@@ -31,7 +43,7 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 ## Referências
 
-* link
+* doc dotnet csharp
 * link
 
 ## Autor
