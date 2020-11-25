@@ -20,18 +20,18 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 ## Diário
 
 ### No primeiro dia aprendi:
-* C# = 'See' + 'Sharp', 'ver nítido'... KKKKKKKKK
+* Que C# = 'See' + 'Sharp', 'ver nítido'... KKKKKKKKK
 
-* C# é uma linguagem fortemente tipada e semelhante ao java, originou-se do j++.
+* Que C# é uma linguagem fortemente tipada e semelhante ao java, originou-se do j++.
 
-* O dotnet framework consiste em 3 partes:
+* Que o dotnet framework consiste em 3 partes:
 **CLR** - Responsável pela interface entre o código e o sistemas operacional.
 **Classes do framework** - Todas as linguagens que usam a tecnologia dotnet usam as mesmas classes.
 **ASP.NET** - Fornece o acesso direto a toda a linguagem VB.NET(VisualBasic) e/ou C# a partir de uma plataforma de scriptação.
 
-* Todas as linguagens dotnet realizam o mesmo esquema de compilação, gerando um arquivo para a linguagem intermediária "**MSIL** (MicroSoft Intermediate Language)", chamado de Assenbly(.exe ou .dll).
+* Que todas as linguagens dotnet realizam o mesmo esquema de compilação, gerando um arquivo para a linguagem intermediária "**MSIL** (MicroSoft Intermediate Language)", chamado de Assenbly(.exe ou .dll).
 
-* Namespace funciona como um pacote, com a função de agrupar funcionalidades comuns, visando a organização e evitando conflitos.Conveção **PascalCasing**
+* Que Namespace funciona como um pacote, com a função de agrupar funcionalidades comuns, visando a organização e evitando conflitos.Conveção **PascalCasing**
 
 * dotnet new console - cria um novo projeto '.csproj'
 
@@ -39,7 +39,7 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * dotnet build - compila o projeto
 
-* **Casting** é uma operação que força o compilador a realizar uma conversão.
+* Que **Casting** é uma operação que força o compilador a realizar uma conversão.
 
 * **String interpolation**
 
@@ -47,16 +47,31 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * Tipo **dynamic**
 
-* Criar listas utilizando **foreach**
+* A criar listas utilizando **foreach**
 
-* Manipular uma lista
+* A manipular uma lista
 
-* Utilizar o **indexOf**
+* A utilizar o **indexOf**
 
-* Ordenar uma lista com o **.Sort()**
+* A ordenar uma lista com o **.Sort()**
 
 ### No segundo dia aprendi :
-* 
+* Que C# é uma linguagem **type-safe**
+
+* **Namespace** na prática
+
+* A diferença entre **using** e **include**
+
+* As sequências de escape
+
+* Que **NaN** significa Not a Number
+
+* Oque é **Boxing** e **Unboxing**
+
+* O que são **Arrays irregulares**
+
+* **goto**
+
 
 ## Referências
 
