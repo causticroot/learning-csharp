@@ -20,7 +20,7 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 ## Diário
 
 ### No primeiro dia aprendi:
-* Que C# = 'See' + 'Sharp', 'ver nítido'... KKKKKKKKK
+* Que C# = 'See' + 'Sharp', 'ver nítido'
 
 * Que C# é uma linguagem fortemente tipada e semelhante ao java, originou-se do j++.
 
