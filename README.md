@@ -19,7 +19,7 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 ## Diário
 
-### No primeiro dia aprendi:
+### Aprendi :
 * Que C# = 'See' + 'Sharp', 'ver nítido'
 
 * Que C# é uma linguagem fortemente tipada e semelhante ao java, originou-se do j++.
@@ -55,7 +55,6 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * A ordenar uma lista com o **.Sort()**
 
-### No segundo dia aprendi :
 * Que C# é uma linguagem **type-safe**
 
 * **Namespace** na prática
@@ -71,6 +70,7 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 * O que são **Arrays irregulares**
 
 * **goto**
+
 
 
 ## Referências
