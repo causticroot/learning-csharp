@@ -71,6 +71,10 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * **goto**
 
+* Metadados
+
+* **PE** (Portable Executables)
+
 
 
 ## Referências
