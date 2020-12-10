@@ -75,6 +75,9 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * **PE** (Portable Executables)
 
+* Compilação **JIT** 
+
+* Como funciona a referência de um **namespace** 
 
 
 ## Referências
