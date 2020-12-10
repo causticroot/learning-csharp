@@ -19,7 +19,7 @@
             Console.WriteLine("Digite uma letra e tecle <Enter>: ");
             
             //Lê um caractere
-            c = Console.ReadLine();
+            str = Console.ReadLine();
 
             //Imprime uma linha em branco
             Console.WriteLine();
