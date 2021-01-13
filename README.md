@@ -14,8 +14,8 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 ## Exercícios
 
-* [Quebrar valor de pi (Tipos)](LINK); 
-* [Fibonacci (Listas)]();
+* [Multiples of 3 or 5 (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/Multiples/Program.cs); 
+
 
 ## Diário
 
