@@ -79,6 +79,10 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * Como funciona a referência de um **namespace** 
 
+* ASP (Active Server Pages) permite  a construção de documentos da web que respondam a solicitações dos clientes
+
+
+
 
 ## Referências
 
