@@ -11,7 +11,7 @@ public static class kata
 {
     public static int Solution(int value)
     {
-        int total;
+        int total = 0;
         for (int i = 1; i <= value; i++)
         {
             if(i % 3 == 0 && i < value || i % 5 == 0 && i < value)
