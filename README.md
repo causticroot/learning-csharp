@@ -52,6 +52,8 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * ASP (Active Server Pages) permite  a construção de documentos da web que respondam a solicitações dos clientes
 
+* CultureInfo.InvariantCulture é útil quando a localidade do computador não reconhece o '.' de um valor double.
+
 
 
 
