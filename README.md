@@ -15,6 +15,7 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 ## Exercícios
 
 * [Multiples of 3 or 5 (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/Multiples/Program.cs); 
+* [Categorize New Member (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/CategorizeNewMember/Program.cs); 
 
 
 ## Diário
