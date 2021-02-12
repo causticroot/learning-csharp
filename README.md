@@ -16,6 +16,8 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * [Multiples of 3 or 5 (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/Multiples/Program.cs); 
 * [Categorize New Member (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/CategorizeNewMember/Program.cs); 
+* [Hells Kitchen (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/HellsKitchen/Program.cs); 
+
 
 
 ## Diário
