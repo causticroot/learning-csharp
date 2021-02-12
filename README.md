@@ -55,6 +55,10 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * CultureInfo.InvariantCulture é útil quando a localidade do computador não reconhece o '.' de um valor double.
 
+* As expressões regulares(regex) são **strings** especialmente formatadas, usadas para localizar
+padrões no texto, e podem ser úteis durante a validação de informações, para garantir que os dados
+ estejam em um formato específico 
+
 
 
 
