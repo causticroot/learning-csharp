@@ -69,7 +69,9 @@ padrões no texto, e podem ser úteis durante a validação de informações, pa
 garantirá que as instâncias dessa classe não possam ser criadas.
 
 * As **[propriedades](https://docs.microsoft.com/pt-br/dotnet/csharp/properties)** são definições de métodos encapsulados, porém expondo uma sintaxe
-familiar à de atributos e não de métodos.
+familiar à de atributos e não de métodos. As **[Propriedades autoimplementadas](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties)**
+tratam-se de uma forma simplificada de se declarar propriedades que não necessitam
+de lógicas particulares para as operações get e set.
 
 ## Referências
 
