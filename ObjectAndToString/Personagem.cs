@@ -8,7 +8,7 @@ namespace ObjectAndToString
         private const double ManaInicial = 1.0;
 
        //Atributos 
-       public string Nome;
+       private string Nome;
        public double Vida;
        public double Mana;
        public int Nivel;
@@ -27,7 +27,6 @@ namespace ObjectAndToString
         //Construtores
         public Personagem(string nome, double vida, double mana)
         {
-            this.Nome = nome;
             this.Vida = vida;
             this.Mana = mana;
             this.Nivel = NivelInicial;
