@@ -3,8 +3,13 @@ namespace Properties
     public class Produto
     {
         private string _nome;
-        private double _preco;
-        private int _quantidade;
+       
+        //Auto Properties, Propriedades autoimplementadas 
+       public double Preco { get; private set; }
+       public int Quantidade { get; private set; }
+       
+       
+       
 
 
         //Properties
@@ -20,28 +25,6 @@ namespace Properties
                 }
             }
         }
-
-        public double Preco
-        {
-            get { return _preco; }
-            set
-            {
-                if (value > 0.0)
-                {
-                    _preco = value;
-                }
-            }
-        }
-
-        public int Quantidade
-        {
-            get { return _quantidade; }
-            set
-            {
-                _quantidade = value;
-            }
-        }
-
         
     }
 }
