@@ -62,8 +62,8 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 padrões no texto, e podem ser úteis durante a validação de informações, para garantir que os dados
  estejam em um formato específico 
 
-
-
+* Toda classe em C# é uma subclasse da classe **[Object](https://docs.microsoft.com/pt-br/dotnet/api/system.object?view=net-5.0);**
+;
 
 ## Referências
 
