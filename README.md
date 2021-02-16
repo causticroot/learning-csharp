@@ -58,12 +58,16 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 * CultureInfo.InvariantCulture é útil quando a localidade do computador não reconhece o '.' de um valor double.
 
-* As expressões regulares(regex) são **strings** especialmente formatadas, usadas para localizar
-padrões no texto, e podem ser úteis durante a validação de informações, para garantir que os dados
+* As expressões regulares(regex) são **[strings](https://docs.microsoft.com/pt-br/dotnet/api/system.object?view=net-5.0);** especialmente formatadas, usadas para localizar
+padrões no texto, e podem ser úteis durante a validação de informações, para garantir que os dados.
  estejam em um formato específico 
 
-* Toda classe em C# é uma subclasse da classe **[Object](https://docs.microsoft.com/pt-br/dotnet/api/system.object?view=net-5.0);**
+* Toda classe em C# é uma subclasse da classe **[Object](https://docs.microsoft.com/pt-br/dotnet/api/system.object?view=net-5.0);*
 ;
+
+* O compilador sempre verifica se uma classe **[estática](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)** foi instânciada acidentalmente, o compilador
+garantirá que as instâncias dessa classe não possam ser criadas.
+
 
 ## Referências
 
