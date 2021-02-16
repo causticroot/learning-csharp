@@ -68,6 +68,8 @@ padrões no texto, e podem ser úteis durante a validação de informações, pa
 * O compilador sempre verifica se uma classe **[estática](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)** foi instânciada acidentalmente, o compilador
 garantirá que as instâncias dessa classe não possam ser criadas.
 
+* As **[propriedades](https://docs.microsoft.com/pt-br/dotnet/csharp/properties)** são definições de métodos encapsulados, porém expondo uma sintaxe
+familiar à de atributos e não de métodos.
 
 ## Referências
 
