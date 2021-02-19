@@ -5,11 +5,9 @@ namespace Properties
         private string _nome;
        
         //Auto Properties, Propriedades autoimplementadas 
-       public double Preco { get; private set; }
-       public int Quantidade { get; private set; }
-       
-       
-       
+       public double Preco { get; set; }
+       public int Quantidade { get; set; }
+
 
 
         //Properties
