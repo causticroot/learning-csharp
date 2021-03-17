@@ -1,4 +1,11 @@
-﻿using System.Collections.Generic;
+﻿/*
+    Write an algorithm that takes an array and moves all of the zeros to the end,
+     preserving the order of the other elements.
+
+    Kata.MoveZeroes(new int[] {1, 2, 0, 1, 0, 1, 0, 3, 0, 1}) => new int[] {1, 2, 1, 1, 3, 1, 0, 0, 0, 0}
+*/
+
+using System.Collections.Generic;
 using System;
 using System.Linq;
 
@@ -16,18 +23,13 @@ namespace ZerosToTheEnd
             return list.ToArray();
             //Best practice
             // return arr.OrderBy(x => x==0).ToArray();
-  
         }
     
         static void Main(string[] args)
         {
             int[] arr = MoveZeroes(new int[] {1,2,0,5,6,0,3});  
             foreach (var item in arr)
-            {
                 Console.WriteLine($"{item}");
-                
-            }
-            
         }
     }
 }
