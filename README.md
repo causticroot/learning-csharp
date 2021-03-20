@@ -68,6 +68,8 @@ Todos os outros tipos, como por exemplo as classes (tipo referência), são arma
 
 Os objetos que precisam ser armazenados na memória heap possuem um custo maior de performance em relação à memória stack, pois, esses objetos precisam ser coletados obrigatoriamente pelo [Garbage Collector](https://docs.microsoft.com/pt-br/dotnet/standard/garbage-collection/). Sendo assim, o [CLR]() irá até a memória verificar se determinado objeto está sendo utilizado ou não, caso não esteja, o Garbage Collector irá destruí-lo para liberar espaço na memória. Em contrapartida, o Garbage Collector nunca vai até a memória stack. 
 
+
+
 ![stackxheap](https://1.bp.blogspot.com/-gKWUcwIKWWU/VvPtKUAIFjI/AAAAAAAAFRc/WLCqWfSxlZ4ioocmBuFS3KaRhzs0I13OA/w1200-h630-p-k-no-nu/Difference%2Bbetween%2Bstack%2Band%2Bheap%2Bmemory%2Bin%2BJava.gif)
 
 
@@ -104,7 +106,13 @@ São úteis para pequenas estruturas de dados que possuem semântica de valor:  
 
 ### Interfaces
 
+Uma interface define um contrato que pode ser implementado por classes não abstratas e structs, podendo conter métodos, propriedades, eventos e indexadores.
 
+Uma classe não fornece herança como uma classe ou classe abstrata, ela só declara membros que uma classe de implementação  **precisa** implementar. Uma interface também não pode ser instanciada, mas pode ser referenciada pelo objeto da classe que a implementa, além disso, a referência da interface funciona como o objeto de referência  e se comporta como o objeto.  Uma interface pode ser herdada a partir de uma ou mais interfaces,  e uma interface também pode estender outra interface.
+
+**Não podem** conter: constantes, construtores, variáveis de instância, destrutores, membros estáticos ou interfaces aninhadas. Os membro de uma interface não podem conter qualquer modificador de acesso, mesmo o público.
+
+Implicitamente, cada membro de uma interface é público e abstrato, além disso, não é dada a permissão para especificar os membros de uma interface pública e abstratas  ou virtuais.
 
 
 
