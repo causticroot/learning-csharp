@@ -7,7 +7,7 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 
 ## Tecnologias usadas
 * C#
-* Dotnet version `3.1.40`
+* .NET Core  `3.1.40`
 * Vscode
 * Code Wars
 
@@ -15,7 +15,10 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 * [Multiples of 3 or 5 (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/Multiples/Program.cs); 
 * [Categorize New Member (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/CategorizeNewMember/Program.cs); 
 * [Hells Kitchen (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/HellsKitchen/Program.cs); 
+* [Fire On The Boat (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/FireOnTheBoat/Program.cs); 
+* [Zeros To The End (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/ZerosToTheEnd/Program.cs); 
 * [Don't Give Me Five (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/DontGiveMeFive/Program.cs); 
+* [Valid Parentheses (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/ValidParentheses/Program.cs)
 
 
 ## Learning
@@ -55,7 +58,22 @@ tratam-se de uma forma simplificada de se declarar propriedades que não necessi
 de lógicas particulares para as operações get e set.
 * [Nullable](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/nullable-value-types) é um recurso do c# que permite que  os dados de tipo valor recebam o valor **null**
 
+
+
+### Stack x Heap
+
+A **stack** possui um tamanho pequeno, entre 1Mb e 4Mb,  e isto é proposital. Somente alguns tipos primitivos  como, boolean, inteiros e as structs, são armazenados diretamente na memória stack, sendo o valor propriamente dito e não a referência a ele.
+
+Todos os outros tipos, como por exemplo as classes (tipo referência), são armazenados na memória **heap**, que por sua vez possui um espaço de memória maior, porém, menos performance. Todos os objetos da memória heap são acessados por  referência, o que significa que  ao criar um objeto, o compilador não vai diretamente na memória heap procurar por ele,  mas sim na memória stack onde encontra-se uma referência para este mesmo objeto.
+
+Os objetos que precisam ser armazenados na memória heap possuem um custo maior de performance em relação à memória stack, pois, esses objetos precisam ser coletados obrigatoriamente pelo [Garbage Collector](https://docs.microsoft.com/pt-br/dotnet/standard/garbage-collection/). Sendo assim, o [CLR]() irá até a memória verificar se determinado objeto está sendo utilizado ou não, caso não esteja, o Garbage Collector irá destruí-lo para liberar espaço na memória. Em contrapartida, o Garbage Collector nunca vai até a memória stack. 
+
+![stackxheap](https://1.bp.blogspot.com/-gKWUcwIKWWU/VvPtKUAIFjI/AAAAAAAAFRc/WLCqWfSxlZ4ioocmBuFS3KaRhzs0I13OA/w1200-h630-p-k-no-nu/Difference%2Bbetween%2Bstack%2Band%2Bheap%2Bmemory%2Bin%2BJava.gif)
+
+
+
 ### Tipo referência vs Tipo valor
+
 **CLASSE (REFERÊNCIA)**   | **STRUCT (VALOR)**
 ------------------------- | --------------
 Vantagem: usufrui de todos recursos OO | Vantagem: mais simples e performático
@@ -73,6 +91,20 @@ Objetos não utilizados são desalocados em um momento próximo pelo garbage col
     * bool: False
     * char: **carectere código 0**
     * objeto: **null**
+
+### Structs
+
+Uma variável de um tipo **struct** armazena diretamente os dados da estrutura, enquanto uma variável de tipo classe armazena uma referência a um objeto alocado na memória. Por esse motivo uma struct consome menos memória. Em vez de alocar dinamicamente um objeto no heap gerenciado e retornar uma referência a ele, um construtor  struct simplesmente retorna o próprio valor struct (normalmente em um local temporário na stack), e esse valor é copiado conforme necessário.
+
+São úteis para pequenas estruturas de dados que possuem semântica de valor:  números complexos, pontos em um sistema  de coordenadas ou pares de chave-valor, por exemplo. É recomendável a definição de tipos de estrutura imutáveis.
+
+### Enums
+
+
+
+### Interfaces
+
+
 
 
 
