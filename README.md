@@ -102,7 +102,9 @@ São úteis para pequenas estruturas de dados que possuem semântica de valor:  
 
 ### Enums
 
+A classe enum fornece a classe base para enumerações e o método Enum.GetNames() que retorna um array de string? . Já o método  GetValues(), irá retornar um array de valores para cada item da enum.
 
+> Em matemática e ciência da computação teórica, a enumeração é a repetição de diversas palavras seguidas de virgula.
 
 ### Interfaces
 
