@@ -1,48 +1,58 @@
 # Aprendendo csharp
 
-## Objetivos:
-
 Este repositório foi criado de acordo com a minha necessidade de praticar e fixar a sintaxe da linguagem c#. O objetivo é estimular a prática da programação orientada a objetos e me aproximar do desenvolvimento de jogos. Os estudos abordados aqui não fazem parte do conteúdo acadêmico, portanto o repositório será alimentado de acordo com  a minha disponibilidade diária. 
 
 
-## Tecnologias usadas
+## Tecnologias utilizadas
 * C#
-* .NET Core  `3.1.40`
-* Vscode
-* Code Wars
 
-## Exercícios
+* .NET Core  `3.1.40`
+
+  
+
+## Sumário
+**Exercícios**
+
 * [Multiples of 3 or 5 (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/Multiples/Program.cs); 
 * [Categorize New Member (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/CategorizeNewMember/Program.cs); 
 * [Hells Kitchen (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/HellsKitchen/Program.cs); 
 * [Fire On The Boat (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/FireOnTheBoat/Program.cs); 
 * [Zeros To The End (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/ZerosToTheEnd/Program.cs); 
 * [Don't Give Me Five (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/DontGiveMeFive/Program.cs); 
-* [Valid Parentheses (codewars)](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/ValidParentheses/Program.cs)
+* [Valid Parentheses (codewars);](https://github.com/causticroot/learning-csharp/blob/master/CodeWars/ValidParentheses/Program.cs)
 
 
-## Learning
+
+## Anotações
 
 ### Comandos do CLI (.NET Core)
 * dotnet new console - cria um novo projeto '.csproj'
+
 * dotnet run - compila e roda o projeto
+
 * dotnet build - compila o projeto
+
+  
 
 
 ### .NET framework
-##### O dotnet framework consiste em 3 partes:
+O dotnet framework consiste em 3 partes:
+
 1. **CLR** - Responsável pela interface entre o código e o sistemas operacional.
 2. **Classes do framework** - Todas as linguagens que usam a tecnologia dotnet usam as mesmas classes.
 3. **ASP.NET** - Fornece o acesso direto a toda a linguagem VB.NET(VisualBasic) e/ou C# a partir de uma plataforma de scriptação.
 
-##### Funcionamento:
+Funcionamento:
+
 * Todas as linguagens dotnet realizam o mesmo esquema de compilação, gerando um arquivo para a linguagem intermediária "**MSIL** (MicroSoft Intermediate Language)", chamado de Assenbly(.exe ou .dll).
 * Namespace funciona como um pacote, com a função de agrupar funcionalidades comuns, visando a organização e evitando conflitos.
 * ASP (Active Server Pages) permite  a construção de documentos da web que respondam a solicitações dos clientes
 * Toda classe em C# é uma subclasse da classe **[Object](https://docs.microsoft.com/pt-br/dotnet/api/system.object?view=net-5.0)**.
 
 
-### Conceitos:
+
+### Conceitos
+
 * C# é uma linguagem fortemente tipada e semelhante ao java, originou-se do j++.
 * C# é uma linguagem **type-safe**
 * **Casting** é uma operação que força o compilador a realizar uma conversão.
@@ -76,6 +86,8 @@ Os objetos que precisam ser armazenados na memória heap possuem um custo maior 
 
 ### Tipo referência vs Tipo valor
 
+
+
 **CLASSE (REFERÊNCIA)**   | **STRUCT (VALOR)**
 ------------------------- | --------------
 Vantagem: usufrui de todos recursos OO | Vantagem: mais simples e performático
@@ -87,12 +99,17 @@ Suporte a herança  | Não suporta herança mas pode implementar interfaces
 Objetos instanciados no heap  | Objetos instanciados no stack
 Objetos não utilizados são desalocados em um momento próximo pelo garbage collector  | "Objetos" são desalocados imediatamente quando seu escopo de execução é finalizado.
 
+
+
 ### Valores padrão
+
 * Quando um tipo estruturado (classe, struct, array) é alocado, são atribuídos valores padrão aos seus elementos:
     * números: 0
     * bool: False
     * char: **carectere código 0**
     * objeto: **null**
+
+
 
 ### Structs
 
@@ -100,11 +117,15 @@ Uma variável de um tipo **struct** armazena diretamente os dados da estrutura, 
 
 São úteis para pequenas estruturas de dados que possuem semântica de valor:  números complexos, pontos em um sistema  de coordenadas ou pares de chave-valor, por exemplo. É recomendável a definição de tipos de estrutura imutáveis.
 
+
+
 ### Enums
 
-A classe enum fornece a classe base para enumerações e o método Enum.GetNames() que retorna um array de string? . Já o método  GetValues(), irá retornar um array de valores para cada item da enum.
+Trata-se de um tipo (valor) que serve para especificar de forma literal um conjunto de constantes relacionadas, apresenta uma melhor semântica e disponibiliza um código mais legível e auxiliado pelo compilador. A classe enum fornece a classe base para enumerações e o método Enum.GetNames() que retorna um array de string? . Já o método  GetValues(), irá retornar um array de valores para cada item da enum.
 
 > Em matemática e ciência da computação teórica, a enumeração é a repetição de diversas palavras seguidas de virgula.
+
+
 
 ### Interfaces
 
@@ -117,11 +138,3 @@ Uma classe não fornece herança como uma classe ou classe abstrata, ela só dec
 Implicitamente, cada membro de uma interface é público e abstrato, além disso, não é dada a permissão para especificar os membros de uma interface pública e abstratas  ou virtuais.
 
 
-
-## Referências
-
-* link
-
-## Autor
-
-* causticroot
