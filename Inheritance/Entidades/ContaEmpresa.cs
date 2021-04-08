@@ -2,7 +2,8 @@ namespace Inheritance.Entidades
 {
     public class ContaEmpresa : Conta
     {
-        public ContaEmpresa(int numero, string titular, double saldo, double limiteEmprestimo) : base(numero, titular, saldo)
+        public ContaEmpresa(int numero, string titular, double saldo, double limiteEmprestimo)
+            : base(numero, titular, saldo)
         {
             LimiteEmprestimo = limiteEmprestimo;
         }
