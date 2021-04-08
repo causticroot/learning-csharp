@@ -57,16 +57,15 @@ Funcionamento:
 * C# é uma linguagem **type-safe**
 * **Casting** é uma operação que força o compilador a realizar uma conversão.
 * **String interpolation** é um literal de cadeia de caracteres que pode conter expressões de interpolação
-* **foreach** pode ser usado para criar listas
-* **.Sort()** serve para ordenar uma lista
 * **NaN** significa Not a Number
 * CultureInfo.InvariantCulture é útil quando a localidade do computador não reconhece o '.' de um valor double.
-* O compilador sempre verifica se uma classe **[estática](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)** foi instânciada acidentalmente, o compilador garantirá que as instâncias dessa classe não possam ser criadas.
+* O compilador sempre verifica se uma classe **[estática](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)** foi instanciada acidentalmente, o compilador garantirá que as instâncias dessa classe não possam ser criadas.
 * As **[propriedades](https://docs.microsoft.com/pt-br/dotnet/csharp/properties)** são definições de métodos encapsulados, porém expondo uma sintaxe.
 familiar à de atributos e não de métodos. As **[Propriedades autoimplementadas](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties)**.
 tratam-se de uma forma simplificada de se declarar propriedades que não necessitam
 de lógicas particulares para as operações get e set.
 * [Nullable](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/nullable-value-types) é um recurso do c# que permite que  os dados de tipo valor recebam o valor **null**
+* **Composição**, é um tipo de associação que permite que um objeto contenha outro.
 
 
 
@@ -124,6 +123,41 @@ São úteis para pequenas estruturas de dados que possuem semântica de valor:  
 Trata-se de um tipo (valor) que serve para especificar de forma literal um conjunto de constantes relacionadas, apresenta uma melhor semântica e disponibiliza um código mais legível e auxiliado pelo compilador. A classe enum fornece a classe base para enumerações e o método Enum.GetNames() que retorna um array de string? . Já o método  GetValues(), irá retornar um array de valores para cada item da enum.
 
 > Em matemática e ciência da computação teórica, a enumeração é a repetição de diversas palavras seguidas de virgula.
+
+
+
+### Herança
+
+Herança  é um recurso das linguagens de programação orientadas a objeto que permite a definição de uma classe base que, por sua vez, fornece uma funcionalidade específica (dados e comportamentos), e a definição de classes derivadas que herdam ou substituem essa funcionalidade. Em outras palavras, herança é um tipo de associação que permite que uma classe herde dados e comportamentos de outras.
+
+Sintaxe:
+
+* **:** (Estende)
+* **base** (referência para a superclasse)
+
+
+
+Definições importantes:
+
+* Relação "é-um". 
+
+* Generalização / Especialização
+
+* Superclasse (classe base / classe genérica) / Subclasse (classe derivada / classe especializada)
+
+* Herança / Extensão
+
+* Associação entre classes, e **não** **entre objetos**.
+
+  
+
+C# e .NET oferecem suporte apenas à herança única. Ou seja, uma classe pode herdar apenas de uma única classe. No entanto, a herança é transitiva, o que permite que você defina uma hierarquia de herança para um conjunto de tipos. Em outras palavras, o tipo D  por herdar do tipo C, que herda do tipo B, que herda do tipo de classe base A. Como a herança é transitiva, os membros do A estão disponíveis ao tipo D.
+
+Nem todos os membros de uma classe base são herdados por classes derivadas. Os membros a seguir não são herdados:
+
+* Construtores estáticos, que inicializam os dados estáticos de uma classe.
+* Construtores de instância, que você chama para criar uma nova instância da classe.
+* Finalizadores, que são chamados pelo garbage collector do runtime para destruir instâncias de uma classe.
 
 
 
