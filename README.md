@@ -132,8 +132,8 @@ Herança  é um recurso das linguagens de programação orientadas a objeto que 
 
 Sintaxe:
 
-* **:** (Estende)
-* **base** (referência para a superclasse)
+* `:` (Estende)
+* `base` (referência para a superclasse)
 
 
 
@@ -160,6 +160,19 @@ Nem todos os membros de uma classe base são herdados por classes derivadas. Os 
 * Finalizadores, que são chamados pelo garbage collector do runtime para destruir instâncias de uma classe.
 
 
+
+### Upcasting e Downcasting
+
+**Upcasting:**
+
+* Casting da subclasse para superclasse
+* Uso comum: polimorfismo
+
+**Downcasting:**
+
+* Casting da superclasse para subclasse
+* Palavra `as`
+* Palavra `is`
 
 ### Interfaces
 
