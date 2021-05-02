@@ -15,6 +15,12 @@ namespace Inheritance.Entidades
 
         public double TaxaJuros { get; set; }
 
+        public override void Remover(double quantidade)
+        {
+            base.Remover(quantidade);
+            Saldo -= 0.43;
+        }
+
         public void AtualizarSaldo()
         {
             Saldo += Saldo * TaxaJuros;

@@ -18,9 +18,9 @@ namespace Inheritance.Entidades
         public string Titular { get; protected set; }
         public double  Saldo { get; protected set; }
         
-        public void Remover(double quantidade)
+        public virtual void Remover(double quantidade)
         {
-            Saldo -= quantidade;
+            Saldo -= quantidade + 6.50; // 6.50 = taxa de saque
         }
         
         public void Depositar(double quantidade)
