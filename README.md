@@ -246,10 +246,40 @@ Nem todos os membros de uma classe base são herdados por classes derivadas. Os 
 **Como chamar a implementação da superclasse usando a palavra 'base'**
 
 ```csharp
-
+        public override void Remover(double quantidade)
+        {
+            base.Remover(quantidade);
+            Saldo -= 0.43;
+        }
 ```
 
 
+
+### Sealed Class
+
+A palavra chave: **sealed**, quando aplicada em:
+
+1. **Classe**: Evita que a classe seja herdada, porém ainda é possível extender a funcionalidade de uma classe selada usando **extension methods**.
+
+```csharp
+namespace 
+{
+    sealed class ContaPoupanca
+    {
+```
+
+​	
+
+2. **Método**: Evita que um método sobreposto possa ser sobreposto novamente, só pode ser aplicado a métodos sobrepostos
+
+```csharp
+       // Agora não pode mais ser sobrescrita novamente em outra sublcasse
+		public sealed override void Remover(double quantidade)
+        {
+            base.Remover(quantidade);
+            Saldo -= 0.43;
+        }
+```
 
 
 
