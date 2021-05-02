@@ -185,3 +185,9 @@ Uma classe não fornece herança como uma classe ou classe abstrata, ela só dec
 Implicitamente, cada membro de uma interface é público e abstrato, além disso, não é dada a permissão para especificar os membros de uma interface pública e abstratas  ou virtuais.
 
 
+
+### Object Oriented
+
+
+
+
