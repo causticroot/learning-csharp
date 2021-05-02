@@ -6,7 +6,7 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 ## Tecnologias utilizadas
 * C#
 
-* .NET Core  `3.1.40`
+* .NET  `5.0.202`
 
   
 
