@@ -281,6 +281,11 @@ namespace
         }
 ```
 
+> Porque usa o **sealed** ?
+>
+> * Segurança: às vezes pode ser desejável  garantir que uma classe não seja herdada, ou que um método não seja sobreposto. Comumente convém selar métodos sobrepostos, pois sobreposição múltiplas podem ser uma porte de entrada para inconsistências.
+> * Performance: classes com **sealed** são analisadas de forma mais rápida em tempo de execução.
+
 
 
 ### Upcasting e Downcasting
