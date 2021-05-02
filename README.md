@@ -137,6 +137,22 @@ Sintaxe:
 
 
 
+exemplo:  
+
+```csharp
+public ContaEmpresa(int numero, string titular, double saldo, double limiteEmprestimo)
+            : base(numero, titular, saldo)
+        {
+            LimiteEmprestimo = limiteEmprestimo;
+            // :base(numero, titular, saldo) evita com que isso precise ser digitado:
+            // Numero = numero;
+            // Titular = titular;
+            // Saldo = saldo;
+        }
+```
+
+
+
 Definições importantes:
 
 * Relação "é-um". 
@@ -158,6 +174,82 @@ Nem todos os membros de uma classe base são herdados por classes derivadas. Os 
 * Construtores estáticos, que inicializam os dados estáticos de uma classe.
 * Construtores de instância, que você chama para criar uma nova instância da classe.
 * Finalizadores, que são chamados pelo garbage collector do runtime para destruir instâncias de uma classe.
+
+
+
+**Sobreposição ou Sobrescrita **
+
+* É a implementação de um método de uma superclasse na subclasse
+  * Para que um método comum (não abstrato) possa ser sobreposto, deve ser incluído nele o prefixo  **Virtual**.
+  * Ao Sobrescrever um método, devemos incluir nele o prefixo **Override**.
+
+```csharp
+	public class Conta
+    {
+        public Conta()
+        {
+
+        }
+
+        public Conta(int numero, string titular, double saldo)
+        {
+            Numero = numero;
+            Titular = titular;
+            Saldo = saldo;
+        }
+
+        public int Numero { get; protected set; }
+        public string Titular { get; protected set; }
+        public double  Saldo { get; protected set; }
+        
+        public virtual void Remover(double quantidade)
+        {
+            Saldo -= quantidade + 6.50; // 6.50 = taxa fix de saque
+        }
+        
+        public void Depositar(double quantidade)
+        {
+            Saldo += quantidade;
+        }
+    }
+
+	public class ContaPoupanca : Conta
+    {
+        public ContaPoupanca()
+        {
+
+        }
+
+        public ContaPoupanca(int numero, string titular, double saldo, double taxaJuros)
+            : base (numero, titular, saldo)
+        {
+            TaxaJuros = taxaJuros;
+        }  
+        
+        public double TaxaJuros { get; set; }
+
+		public override void Remover(double quantidade)
+        {
+            Saldo -= quantidade + (0.43 + 6.50); // 0.43 = taxa adicional de saque
+        }        
+        
+        public void AtualizarSaldo()
+        {
+            Saldo += Saldo * TaxaJuros;
+        }
+        
+    }
+```
+
+
+
+**Como chamar a implementação da superclasse usando a palavra 'base'**
+
+```csharp
+
+```
+
+
 
 
 
@@ -185,8 +277,6 @@ Uma classe não fornece herança como uma classe ou classe abstrata, ela só dec
 Implicitamente, cada membro de uma interface é público e abstrato, além disso, não é dada a permissão para especificar os membros de uma interface pública e abstratas  ou virtuais.
 
 
-
-### Object Oriented
 
 
 
