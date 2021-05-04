@@ -26,11 +26,15 @@ Este repositório foi criado de acordo com a minha necessidade de praticar e fix
 ## Anotações
 
 ### Comandos do CLI (.NET Core)
-* dotnet new console - cria um novo projeto '.csproj'
+* dotnet new console - cria uma aplicação de console
 
 * dotnet run - compila e roda o projeto
 
 * dotnet build - compila o projeto
+
+* dotnet restore - restaura as dependências  do projeto
+
+* dotnet test - roda o projeto de testes
 
   
 
@@ -123,6 +127,18 @@ São úteis para pequenas estruturas de dados que possuem semântica de valor:  
 Trata-se de um tipo (valor) que serve para especificar de forma literal um conjunto de constantes relacionadas, apresenta uma melhor semântica e disponibiliza um código mais legível e auxiliado pelo compilador. A classe enum fornece a classe base para enumerações e o método Enum.GetNames() que retorna um array de string? . Já o método  GetValues(), irá retornar um array de valores para cada item da enum.
 
 > Em matemática e ciência da computação teórica, a enumeração é a repetição de diversas palavras seguidas de virgula.
+
+
+
+### Interfaces
+
+Uma interface define um contrato que pode ser implementado por classes não abstratas e structs, podendo conter métodos, propriedades, eventos e indexadores.
+
+Uma classe não fornece herança como uma classe ou classe abstrata, ela só declara membros que uma classe de implementação  **precisa** implementar. Uma interface também não pode ser instanciada, mas pode ser referenciada pelo objeto da classe que a implementa, além disso, a referência da interface funciona como o objeto de referência  e se comporta como o objeto.  Uma interface pode ser herdada a partir de uma ou mais interfaces,  e uma interface também pode estender outra interface.
+
+**Não podem** conter: constantes, construtores, variáveis de instância, destrutores, membros estáticos ou interfaces aninhadas. Os membro de uma interface não podem conter qualquer modificador de acesso, mesmo o público.
+
+Implicitamente, cada membro de uma interface é público e abstrato, além disso, não é dada a permissão para especificar os membros de uma interface pública e abstratas  ou virtuais.
 
 
 
@@ -255,6 +271,21 @@ Nem todos os membros de uma classe base são herdados por classes derivadas. Os 
 
 
 
+### Upcasting e Downcasting
+
+**Upcasting:**
+
+* Casting da subclasse para superclasse
+* Uso comum: polimorfismo
+
+**Downcasting:**
+
+* Casting da superclasse para subclasse
+* Palavra `as`
+* Palavra `is`
+
+
+
 ### Sealed Class
 
 A palavra chave: **sealed**, quando aplicada em:
@@ -288,28 +319,11 @@ namespace
 
 
 
-### Upcasting e Downcasting
+### Polimorfismo
 
-**Upcasting:**
+Para a programação orientada a objetos, polimorfismo é um recurso que possibilita que variáveis de um mesmo tipo mais genérico possam apontar para objetos de tipos específicos diferentes, tendo assim comportamentos diferentes conforme cada tipo específico. 
 
-* Casting da subclasse para superclasse
-* Uso comum: polimorfismo
 
-**Downcasting:**
-
-* Casting da superclasse para subclasse
-* Palavra `as`
-* Palavra `is`
-
-### Interfaces
-
-Uma interface define um contrato que pode ser implementado por classes não abstratas e structs, podendo conter métodos, propriedades, eventos e indexadores.
-
-Uma classe não fornece herança como uma classe ou classe abstrata, ela só declara membros que uma classe de implementação  **precisa** implementar. Uma interface também não pode ser instanciada, mas pode ser referenciada pelo objeto da classe que a implementa, além disso, a referência da interface funciona como o objeto de referência  e se comporta como o objeto.  Uma interface pode ser herdada a partir de uma ou mais interfaces,  e uma interface também pode estender outra interface.
-
-**Não podem** conter: constantes, construtores, variáveis de instância, destrutores, membros estáticos ou interfaces aninhadas. Os membro de uma interface não podem conter qualquer modificador de acesso, mesmo o público.
-
-Implicitamente, cada membro de uma interface é público e abstrato, além disso, não é dada a permissão para especificar os membros de uma interface pública e abstratas  ou virtuais.
 
 
 
